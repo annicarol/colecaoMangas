@@ -1,0 +1,15 @@
+<ion-view view-title="Mangás">
+<ion-content>
+  <label class="item item-input">
+    <i class="icon ion-search placeholder-icon"></i>
+    <input type="search" placeholder="Buscar" ng-model="manga.titulo">
+  </label>
+  <ion-list>
+    <div class="list">
+      <a ng-repeat="manga in mangas | filter: manga.titulo" href="#/app/mangas/{{manga.id}}" >
+       <p>{{manga.titulo}}</p>
+       __________________
+      </a>
+    </div>
+  </ion-list>
+</ion-content>

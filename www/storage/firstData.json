@@ -1,0 +1,27 @@
+[{
+      "id": "001",
+      "titulo": "Noragami",
+      "edicao": "1",
+      "editora": "JBC",
+      "ano": "2016",
+      "dtInclusao": "",
+      "imagem" : "",
+      "volume": [{
+        "numVolume": "001",
+        "dtInclusao": ""
+      }]
+  },
+  {
+      "id": "002",
+      "titulo": "Fullmetal Alchemist",
+      "edicao": "1",
+      "editora": "JBC",
+      "ano": "2016",
+      "dtInclusao": "",
+      "imagem" : "",
+      "volume": [{
+        "numVolume": "001",
+        "dtInclusao": ""
+      }]
+  }
+  ]
